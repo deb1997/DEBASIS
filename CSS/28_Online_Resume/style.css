@@ -1,0 +1,196 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Arial",sans-serif;
+    margin: 0;
+    margin-bottom: 100px;
+}
+.sidebar{
+    background-color: #00c851;
+    float: left;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 0 0 15px black;
+}
+aside a{
+    text-decoration: none;
+    color: lightgray;
+    padding: 15px;
+    display: block;
+    font-size: 18px;
+}
+aside a:hover{
+    color: white;
+}
+aside img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 100px;
+    border: 10px solid #1bad56;
+    box-shadow: 0 0 15px black;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+aside img:hover{
+    width: 300px;
+    transform: perspective(400px) scale(0.8,0.8);
+}
+section{
+    margin-left: 320px;
+}
+#about-section p{
+    color: #808290;
+}
+#about-section h1{
+    margin-top: 140px;
+    font-size: 80px;
+    transition: all 0.5s;
+}
+#about-section h1:hover{
+    transform: perspective(400px) scale(1.2,1.2);
+}
+#fname{
+    text-shadow: 0 0 10px black;
+    color: #382828;
+}
+#lname{
+    text-shadow: 0 0 5px black;
+    color: #00c851;
+}
+#about-section h2{
+    font-size: 35px;
+    position: relative;
+    top: -60px;
+    font-family: Arial,sans-serif;
+
+}
+#about-section p{
+    font-size: 25px;
+    position: relative;
+    top: -60px;
+    color: #808290;
+    font-family: Arial,sans-serif;
+}
+#exp-section{
+    margin-top: 140px;
+}
+.main-heading{
+    font-size: 50px;
+    font-family: "Comic Sans MS", sans-serif;
+    text-shadow: 0 0 15px #79bf96;
+}
+.exp-article{
+    box-shadow: 0 0 10px #8ae6af;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid lightgreen;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+.exp-article:hover{
+    transform: perspective(400px) rotateY(-30deg);
+}
+.exp-article h2{
+    font-family: "Comic Sans MS",sans-serif;
+    font-size: 25px;
+}
+
+.exp-article p{
+    font-size: 18px;
+    color: #808290;
+}
+.exp-article-button{
+    background-color: limegreen;
+    padding: 10px 25px;
+    border: 5px solid white;
+    box-shadow: 0 0 10px limegreen;
+    color: white;
+    font-size: 18px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.edu-article{
+    border: 3px solid lightgreen;
+    margin: 15px;
+    margin-right: 40px;
+    padding: 10px;
+    box-shadow: 0 0 20px #8ae6af;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.edu-article:hover{
+    transform: perspective(400px) rotateX(20deg);
+}
+.edu-article h2{
+    color: limegreen;
+    font-family: "Comic Sans MS",sans-serif;
+}
+.edu-article p{
+    font-size: 18px;
+    color: #808290;
+}
+.skills-article{
+    border: 3px solid lightgreen;
+    margin: 15px;
+    margin-right: 40px;
+    padding: 10px;
+    box-shadow: 0 0 20px #8ae6af;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.skills-article:hover{
+    transform: perspective(400px) rotateX(-10deg);
+}
+.skills-article i:hover{
+    color: limegreen;
+}
+
+.skills-article h2{
+    color: limegreen;
+    font-family: "Comic Sans MS",sans-serif;
+}
+.skills-article p{
+    font-size: 18px;
+    color: #808290;
+}
+#cert-text{
+    font-size: 18px;
+    color: #808290;
+}
+.cert-article{
+    border: 3px solid lightgreen;
+    display: inline-block;
+    height:310px;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 20px #8ae6af;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.cert-article:hover{
+    transform: translateY(-20px);
+    background: linear-gradient( orangered, white, green);
+    color: black;
+}
+.cert-article{
+    text-align: center;
+    margin-top: 40px;
+}
+.cert-article img{
+    width: 100px;
+    height: 100px;
+    margin-top: -25%;
+}
+

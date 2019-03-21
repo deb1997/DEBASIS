@@ -1,0 +1,119 @@
+body{
+    font-family: "Times New Roman",sans-serif;
+    margin: 0;
+}
+#div1{
+    background-color: #2874f0;
+    height: 60px;
+}
+.border{
+    margin-left: 100px;
+}
+#explore{
+    margin-left: 100px;
+    width: 50px;
+    height: 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+.border img{
+    margin-left: 100px;
+    width: 70px;
+    height: 20px;
+    display: block;
+}
+tr{
+    margin: 5px;
+    display: inline-block;
+}
+input{
+    padding: 10px;
+}
+::placeholder{
+    padding: 10px;
+    font-size: 13px;
+}
+i{
+    background-color: white;
+    color: #2874f0;
+    padding: 11px;
+}
+#tiger{
+    margin-left: 150px;
+}
+#deb{
+    width: 500px;
+    height: 30px;
+}
+table{
+    text-align: center;
+}
+.space{
+    padding-right: 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+nav{
+    background: white;
+    padding: 10px;
+    box-shadow: 0 0 10px black;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 25px;
+}
+nav a:hover{
+    background-color: forestgreen;
+    box-shadow: 0 0 10px black;
+    color: white;
+    border-radius: 50px;
+}
+#product{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+}
+#product a:hover{
+    box-shadow: 0 0 10px red;
+    background-color: black;
+}
+#just{
+    text-align: center;
+}
+#video{
+    text-align: center;
+    margin-top: 20px;
+    border-top: 10px solid purple;
+    border-left: 15px solid green;
+    border-bottom: 10px solid purple;
+    border-right: 15px solid green;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+#video2{
+    text-align: center;
+    margin-top: 20px;
+    border-top: 10px solid purple;
+    border-left: 15px solid green;
+    border-bottom: 10px solid purple;
+    border-right: 15px solid green;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+}
+footer{
+    background: violet url("../img/image5.jpeg") no-repeat fixed bottom;
+    box-shadow: 0 0 20px black;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px black;
+    margin-bottom: 60px;
+}
+footer a{
+    text-decoration: none;
+    color: yellow;
+}

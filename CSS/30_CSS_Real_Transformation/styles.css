@@ -1,0 +1,74 @@
+body{
+    font-family: Arial,sans-serif;
+    margin-bottom: 100px;
+}
+section{
+    background-color: lightblue;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
+article{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    transition: all 0.5s;
+}
+article p{
+    font-size: 18px;
+}
+
+/* ---------- Transformation 1 ----------- */
+.trans-1:hover{
+    transform: translateY(-10px);
+    background-color: orangered;
+}
+
+/* ---------- Transformation 2 ----------- */
+.trans-2:hover{
+    transform: skewX(20deg);
+    background-color: orangered;
+}
+
+/* ---------- Transformation 3 ----------- */
+.trans-3:hover{
+    transform: scale(1.2,1.2);
+    background-color: orangered;
+}
+
+/* ---------- Transformation 4 ----------- */
+.trans-4:hover{
+    transform: scale(1.2,1.2) skewX(20deg);
+    background-color: orangered;
+}
+
+/* ---------- Transformation 5 ----------- */
+.trans-5:hover{
+    transform: perspective(400px) rotateX(-20deg);
+    background-color: orangered;
+}
+
+/* ---------- Transformation 6 ----------- */
+.trans-6:hover{
+    transform: perspective(400px) rotateY(20deg);
+    background-color: orangered;
+}
+
+/* ---------- Transformation 7 ----------- */
+.trans-7:hover{
+    transform: rotate3d(1, 1, 1, 45deg);
+    background-color: black;
+}
+
+/* ---------- Transformation 8 ----------- */
+.trans-8:hover{
+    transform: rotate3d(2, -1, -1, -0.2turn);
+    background-color: black;
+}

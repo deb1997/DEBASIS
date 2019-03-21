@@ -1,0 +1,39 @@
+body{
+font-family: "Arial Black";
+    margin-bottom: 100px;
+}
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+
+ }
+.tiger{
+    text-align: left;
+}
+.bear{
+    color: orangered;
+    text-align: left;
+}
+table{
+    width: 85%;
+    margin-left: 10%;
+    border: 2px solid black;
+    text-align: center;
+    border-collapse: collapse;
+ }
+input{
+    outline: none;
+    width: 99%;
+    border: none;
+}
+footer{
+    background: violet url("../img/image5.jpeg") no-repeat fixed bottom;
+    box-shadow: 0 0 20px brown;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+footer a{
+    text-decoration: none;
+    color: yellow;
+}

@@ -1,0 +1,48 @@
+div{
+    margin-top: 250px;
+    margin-left: 250px;
+    font-family: "Comic Sans MS",sans-serif;
+}
+span{
+    box-shadow: 0 0 10px blueviolet;
+    padding: 14px 25px;
+    font-size: 45px;
+    margin: 5px;
+    border-radius: 5px;
+    color: blueviolet;
+    text-shadow: 0 0 5px red;
+    animation: move 0.8s infinite linear;
+    display: inline-block;
+}
+@keyframes move {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+span:nth-child(1){
+    animation-delay: 0.1s;
+}
+span:nth-child(2){
+    animation-delay: 0.2s;
+}
+span:nth-child(3){
+    animation-delay: 0.3s;
+}
+span:nth-child(4){
+    animation-delay: 0.4s;
+}
+span:nth-child(5){
+    animation-delay: 0.5s;
+}
+span:nth-child(6){
+    animation-delay: 0.6s;
+}
+span:nth-child(7){
+    animation-delay: 0.7s;
+}
